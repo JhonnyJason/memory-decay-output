@@ -15,7 +15,7 @@ export var setDefaultDecayMS = function(decayMS) {
 };
 
 //###########################################################
-export var makeForgetableMemory = function(obj, decayMS) {
+export var makeForgetable = function(obj, decayMS) {
   var toForgetTimers;
   if (decayMS == null) {
     decayMS = defaultDecayMS;
